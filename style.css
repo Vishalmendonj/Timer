@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.big-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.elem{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 96px;
+    padding: 9px;
+}
+.time{
+    margin: auto;
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    height: 62px;
+    font-size: larger;
+    text-align: center;
+}
+.play-buttons{
+    height: 100px;
+    margin: auto;
+    /* border: 1px solid purple; */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+button{
+    margin: auto;
+    height: 25px;
+
+}

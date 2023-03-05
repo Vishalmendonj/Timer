@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count down timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="big-container">
+
+        <div class="container">
+            <div class="elem">
+                <input type="number" id="hours" min="0">
+                <label for="hours" class="time">Hours</label>
+            </div> 
+            <div class="elem">
+                <input type="number" id="minutes" min="0" max="59">
+                <label for="minutes" class="time">Minutes</label>
+            </div>
+            <div class="elem">
+                <input type="number" id="seconds" min="0" max="59">
+                <label for="seconds" class="time">Seconds</label>
+            </div>
+        </div> 
+        <div class="play-buttons">
+
+            <button id="play">Play</button>
+            <button id="stop">Stop and Reset</button>
+        </div>
+        
+        <audio src="test.mp3" id="audio"></audio>
+    </div>
+      <script src="index.js"></script>
+</body>
+</html>
